@@ -40,7 +40,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add argoconfig.txt
           git add -A
-          timestamp=$(date -u)
+          timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
 
@@ -60,6 +60,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add argoconfig64
           git add -A
-          timestamp=$(date -u)
+          timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
