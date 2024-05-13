@@ -19,7 +19,7 @@ Here's the simplified steps to run an Argo Tunnel config based on Replit.
 Since the argo tunnel address changes at every run, this code is an attempt to fetch the vless config every time that it changes.
 
 9. Make sure your Repl is running.
-10. Open fetch-argo.py and replace "YOUR_URL", "HOST_SNI" and "TARGET_IP".
+10. Open `fetch-argo.py` and replace "YOUR_URL", "HOST_SNI" and "TARGET_IP".
 11. `YOUR_URL`: This is link to your detailed configs link, the "new tab" in step 4.
 12. `HOST_SNI`: This is the first part of the URL mentioned in step 5.
 13. `TARGET_IP`: Clean CF IP or Domain.
