@@ -8,7 +8,7 @@ Here's the simplified steps to run an Argo Tunnel config based on Replit.
 
 1. Create a replit account, tap `+ Create Repl` in the upper left corner of the homepage or the plus sign in the upper right corner
 2. Search for the template: `Blank Repl`, enter the project name title, and tap Create Repl.
-3. Download the compressed file `vmvltrssso .zip` and unzip it. Then drag all four decompressed files to the file bar on the left and confirm overwriting.
+3. Download the compressed file `vmvltrssso.zip` and unzip it. Then drag all four decompressed files to the file bar on the left and confirm overwriting.
 4. Tap `Run` and in the upper right corner under "web view", located and tap `New Tab`.
 5. Separate the first part of the new tab URL (at the time of writing, it's in the format of `UUID.pike.replit.dev` -- make sure to exclude the "https://") and copy it.
 6. Under "Tools" at left lower corner, locate and tap `Secrets`. Tap `New Secret`.
