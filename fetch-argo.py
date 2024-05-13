@@ -20,12 +20,18 @@ def get_subdomain(content):
         return None
 
 def replace_subdomain(content, subdomain):
-    new_content = re.sub(r"23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev", f"{subdomain}.trycloudflare.com", content)
-    return new_content
+    lines = content.split('\n')
+    for i, line in enumerate(lines):
+        if line.startswith('vless://'):
+            lines[i] = re.sub(r"23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev", f"{subdomain}.trycloudflare.com", line)
+    return '\n'.join(lines)
 
-def write_to_file(content):
-    with open('argoconfig.txt', 'w') as file:
-        file.write(content)
+def get_vless_line(content):
+    lines = content.split('\n')
+    for line in lines:
+        if line.startswith('vless://'):
+            return line
+    return None
 
 def main():
     content = get_content()
@@ -33,8 +39,11 @@ def main():
         subdomain = get_subdomain(content)
         if subdomain:
             new_content = replace_subdomain(content, subdomain)
-            write_to_file(new_content)
-            print("New content written to argoconfig.txt")
+            vless_line = get_vless_line(new_content)
+            if vless_line:
+                print(vless_line)
+            else:
+                print("No 'vless://' line found in the content.")
         else:
             print("Subdomain not found in the content.")
     else:
