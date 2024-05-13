@@ -35,7 +35,9 @@ def get_vless_line(content):
             vless_line = '#'.join(parts)
             vless_line = vless_line[vless_line.index('vless://'):]
             vless_line_parts = vless_line.split('@')
-            vless_line_parts[1] = vless_line_parts[1].replace(vless_line_parts[1].split(':')[0], '118nahal.ir')
+            ip_address_parts = vless_line_parts[1].split(':')
+            ip_address_parts[0] = '118nahal.ir'
+            vless_line_parts[1] = ':'.join(ip_address_parts)
             return '@'.join(vless_line_parts)
     return None
 
