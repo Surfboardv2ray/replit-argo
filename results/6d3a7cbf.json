@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "businessofsoftware.ir",
+                        "address": "fantasya.ir",
                         "port": 443,
                         "users": [
                             {
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "foreign-attend-controllers-percent.trycloudflare.com"
+                        "Host": "competitors-tue-gather-rocks.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "foreign-attend-controllers-percent.trycloudflare.com",
+                    "serverName": "competitors-tue-gather-rocks.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
