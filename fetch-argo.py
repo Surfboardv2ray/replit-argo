@@ -22,15 +22,17 @@ def get_subdomain(content):
 def replace_subdomain(content, subdomain):
     lines = content.split('\n')
     for i, line in enumerate(lines):
-        if line.startswith('vless://'):
+        if 'vless://' in line:
             lines[i] = re.sub(r"23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev", f"{subdomain}.trycloudflare.com", line)
     return '\n'.join(lines)
 
 def get_vless_line(content):
     lines = content.split('\n')
     for line in lines:
-        if line.startswith('vless://'):
-            return line
+        if 'vless://' in line:
+            parts = line.split('#')
+            parts[-1] = '✅Argo+@Surfboardv2ray'
+            return '#'.join(parts)
     return None
 
 def main():
