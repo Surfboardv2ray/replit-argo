@@ -32,8 +32,14 @@ def get_vless_line(content):
         if 'vless://' in line:
             parts = line.split('#')
             parts[-1] = '✅Argo+@Surfboardv2ray'
-            return '#'.join(parts)
+            vless_line = '#'.join(parts)
+            vless_line = vless_line[vless_line.index('vless://'):]
+            return vless_line
     return None
+
+def write_to_file(content):
+    with open('argoconfig.txt', 'w') as file:
+        file.write(content)
 
 def main():
     content = get_content()
@@ -43,7 +49,8 @@ def main():
             new_content = replace_subdomain(content, subdomain)
             vless_line = get_vless_line(new_content)
             if vless_line:
-                print(vless_line)
+                write_to_file(vless_line)
+                print("New content written to argoconfig.txt")
             else:
                 print("No 'vless://' line found in the content.")
         else:
