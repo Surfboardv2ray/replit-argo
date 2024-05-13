@@ -5,6 +5,7 @@
 
 # How to Repl It
 Here's the simplified steps to run an Argo Tunnel config based on Replit.
+
 1. Create a replit account, tap `+ Create Repl` in the upper left corner of the homepage or the plus sign in the upper right corner
 2. Search for the template: `Blank Repl`, enter the project name title click Create Repl, and then
 3. Download the compressed file `vmvltrssso .zip` and unzip it. Then drag all four decompressed files to the file bar on the left and confirm overwriting.
@@ -16,6 +17,7 @@ Here's the simplified steps to run an Argo Tunnel config based on Replit.
 
 # How to use
 Since the argo tunnel address changes at every run, this code is an attempt to fetch the vless config every time that it changes.
+
 9. Make sure your Repl is running.
 10. Open fetch-argo.py and replace "YOUR_URL", "HOST_SNI" and "TARGET_IP".
 11. `YOUR_URL`: This is link to your detailed configs link, the "new tab" in step 4.
