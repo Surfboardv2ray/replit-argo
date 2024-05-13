@@ -1,5 +1,5 @@
 {
-    "remarks": "05%2B%F0%9F%8C%A8%F0%9F%87%AC%F0%9F%87%A7%2B%40Surfboardv2ray",
+    "remarks": "✅Argo+@Surfboardv2ray",
     "log": {
         "access": "",
         "error": "",
@@ -12,11 +12,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "crackthecode.ftp.sh",
+                        "address": "fantasya.ir",
                         "port": 443,
                         "users": [
                             {
-                                "id": "43e00e4c-2316-4dc9-8262-cef31886dc56",
+                                "id": "23ef8b4b-c51a-4393-b6f7-87d96fbc1d68",
                                 "alterId": 0,
                                 "email": "t@t.tt",
                                 "security": "auto",
@@ -32,16 +32,14 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "vcp3.cushingreflex5.wOrKerS.DEv"
+                        "Host": "contractors-specials-steve-dsc.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "vcp3.cushingreflex5.wOrKerS.DEv",
-                    "alpn": [
-                        "h2"
-                    ],
+                    "serverName": "contractors-specials-steve-dsc.trycloudflare.com",
+                    "alpn": [],
                     "show": false
                 },
                 "sockopt": {
