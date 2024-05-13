@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "domaina.ir",
+                        "address": "businessofsoftware.ir",
                         "port": 443,
                         "users": [
                             {
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "lawn-structures-drunk-merchandise.trycloudflare.com"
+                        "Host": "instance-resulting-contribute-stupid.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "lawn-structures-drunk-merchandise.trycloudflare.com",
+                    "serverName": "instance-resulting-contribute-stupid.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
