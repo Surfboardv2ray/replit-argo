@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "fantasya.ir",
+                        "address": "didgahnews.ir",
                         "port": 443,
                         "users": [
                             {
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "di-section-requesting-behavioral.trycloudflare.com"
+                        "Host": "foreign-attend-controllers-percent.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "di-section-requesting-behavioral.trycloudflare.com",
+                    "serverName": "foreign-attend-controllers-percent.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
