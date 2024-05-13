@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>节点分享链接</title>
+<style>
+    body {
+        width: auto;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<p>****************************************************************</p>
+<h1>教程说明</h1>
+<p>视频：https://www.youtube.com/@ygkkk</p>
+<p>博客：https://ygkkk.blogspot.com</p>
+<p>****************************************************************</p>
+<h1>当前服务器IP信息</h1>
+<p>IP地址：34.93.152.89</p>
+<p>IP所在地区：印度</p>
+<p>****************************************************************</p>
+<h1>Xray五大协议明文及分享链接、二维码</h1>
+<p>当前Xray正式版本号：1.8.4</p>
+<p>Argo临时隧道域名：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>Argo固定隧道域名：upregulation.transglutaminase.shop</p>
+<p>================================================================</p>
+<p>1：Vmess+ws+tls配置明文如下，相关参数可复制到客户端</p>
+<p>服务器地址：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>端口：443</p>
+<p>uuid：23ef8b4b-c51a-4393-b6f7-87d96fbc1d68</p>
+<p>传输协议：ws</p>
+<p>host/sni：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>path路径：/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-vm</p>
+<p>tls：开启</p>
+<p>----------------------------------------------------------------</p>
+<p>Vmess链接：</p>
+<p data-copy="vmess">vmess://eyJ2IjogIjIiLCJwcyI6ICJyZXBsaXQtdm1lc3MiLCJhZGQiOiAiMjNlZjhiNGItYzUxYS00MzkzLWI2ZjctODdkOTZmYmMxZDY4LTAwLTIzOW9vZmRoYmdpam0ucGlrZS5yZXBsaXQuZGV2IiwicG9ydCI6ICI0NDMiLCJpZCI6ICIyM2VmOGI0Yi1jNTFhLTQzOTMtYjZmNy04N2Q5NmZiYzFkNjgiLCJhaWQiOiAiMCIsIm5ldCI6ICJ3cyIsInR5cGUiOiAibm9uZSIsImhvc3QiOiAiMjNlZjhiNGItYzUxYS00MzkzLWI2ZjctODdkOTZmYmMxZDY4LTAwLTIzOW9vZmRoYmdpam0ucGlrZS5yZXBsaXQuZGV2IiwicGF0aCI6ICIvMjNlZjhiNGItYzUxYS00MzkzLWI2ZjctODdkOTZmYmMxZDY4LXZtIiwic25pIjogIjIzZWY4YjRiLWM1MWEtNDM5My1iNmY3LTg3ZDk2ZmJjMWQ2OC0wMC0yMzlvb2ZkaGJnaWptLnBpa2UucmVwbGl0LmRldiIsInRscyI6ICJ0bHMifQ==</p>
+<button onclick="copyText('vmess')" >点击复制Vmess链接</button>
+<p>----------------------------------------------------------------</p>
+<p>Vmess二维码：</p>
+<img src="data:image/png;base64,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"/>
+<p>================================================================</p>
+<p>2：Vless+ws+tls配置明文如下，相关参数可复制到客户端</p>
+<p>服务器地址：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>端口：443</p>
+<p>uuid：23ef8b4b-c51a-4393-b6f7-87d96fbc1d68</p>
+<p>传输协议：ws</p>
+<p>host/sni：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>path路径：/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-vl</p>
+<p>tls：开启</p>
+<p>----------------------------------------------------------------</p>
+<p>Vless链接：</p>
+<p data-copy="vless">vless://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68@em-fireplace-soccer-vatican.trycloudflare.com:443?encryption=none&security=tls&type=ws&host=em-fireplace-soccer-vatican.trycloudflare.com&sni=em-fireplace-soccer-vatican.trycloudflare.com&path=/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-vl#replit-vless</p>
+<button onclick="copyText('vless')" >点击复制Vless链接</button>
+<p>----------------------------------------------------------------</p>
+<p>Vless二维码：</p>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAADbAQMAAADeTXYDAAAABlBMVEUAAAD///+l2Z/dAAAAAnRS TlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAASASURBVFiF7Zg9jqxKDIWNCCprNoDENipj S7ABaDbQbImstoHEBiCroITfZ5q57+oFN6BeeFFrfjhoPGUfHx8j+odL/oJ54C4ytNvepk7SGJuT O36bFynywENT59bOl5OWH1nHuPahOQL388ClHpfyCOvLr0XQ3RG27oP02WDnRKT5tDLGmpjSpur/ AAdfV8oJkoierlTlX8gG1VJeLdvZ1mOQUdPgZPwtfc9A6tmH+r+ff4v9ELSLxCzSUcygb1+epOo3 aj4Dd6kLTcXS8AvX4FIRYM0254Gn36aFNK/FspHy0/HUSh2KPHCXNPhmdzzFaYwpL7ddVc0Et2NJ fdgmY8q2u3qQUoPOuaD0cTtCM2sDU16ib1l/L/Yz0FISm92vwj3Vj6OeaWhTJngs68ut9FwVOEFt /U0Flm+GnoO72+ZAu2yEJebuynnhXyBhWeDp6j4SliAkqZyjvlvYV4954N6W8LqKXzGmts3pjX19 HqhLGq70fzykq1+tqdEuX5o8Bw9ToCROJ03idbKYNkyOPFDDNYis8+g/egWCMEzQ0SzwdHT2aidw 26fdYB9NU0Wd8kBmkUiJbOxOisDokEEYSqnKBCO5hyb0h4jf3m2pS93rnb7HIN0sLacpNZbWIpEp ioje1HwM7r6Z7wyll4eJzRRhX13kgbCP7zNkkZIKVLGGMoioZoKxeVNGLwz5rsXsoBkc7mb8Y/BQ si7VlSGQMXzHvox5IMneW/K04qeGFjOll2r+dPZTkIajemJ84SvSzqjf9jvmc5B6wuuexKBDi060 Y9vgAY888PRQuLkmEq4EmYfO2xTqIhN0zaE2MfqFmF/lID13zMegRgjC9GC+rfDa3ATGR8o5F0Tm TYmnQDHtECONspRTHkjp6I/ONXMkK0QmIOdbqzzwCPbnP8Y+/VgXYs3sqSMPxEt28MImPEtA6rxN pClKlQee0uyt/QjvjoVsyeCvVGWCyIOjhjbq4cvgbeJhecY8UE3O6Y+1s/glWZ8jM+Qu9mPwiPJq Mb+pQIeUULhUe3bMA09BMpnDjS567Zcwpa7CT/qegrutlcx8M5WHit3G/rhvhp6DTHsc2cv6z7L1 dhi01Mcf8/schCPoBOegxW3FrAIlvSX1MXhgIZdURSIzjnC+8hI+tzPOANkpmULYE+u82SRzHfzt TR6DFFCJ4zEOVk/cxBt5Ds2RCUI0ZDhck1N5Cm0zKa3yQLUXDDU75WSWinOwZJcft2kmuODLrs0V scdTy/a+RnSfCbKjeOLYxPj4BuHkKcZpkQkuq3XGwuIO42jourtURPNAXOrHvAldkhj4gj3xzdtt Ux5oOwoWcuEe3oTtajsiUvdr9XoIWobMULNqr1SSXpzxv/ojqU9B5mcHKQICb+v1aCJka7fmgbQg jIYpcOTL69EEvjkyQVsjUnVnyN4KXBn69arrOdj58mBXszdYTM7m09Y/L3KyQOwYy0Rh71rSYE7N fESVCSqmTM1O2jtIOFjjrI94x3wM2hsXxVbDO1LeqAm8SciYB/7h+gtmgf8ALtLgXUwijL8AAAAA SUVORK5CYII="/>
+<p>================================================================</p>
+<p>3：Trjan+ws+tls配置明文如下，相关参数可复制到客户端</p>
+<p>服务器地址：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>端口：443</p>
+<p>密码：23ef8b4b-c51a-4393-b6f7-87d96fbc1d68</p>
+<p>传输协议：ws</p>
+<p>host/sni：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>path路径：/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-tr</p>
+<p>tls：开启</p>
+<p>----------------------------------------------------------------</p>
+<p>Trojan链接：</p>
+<p data-copy="trojan">trojan://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68@em-fireplace-soccer-vatican.trycloudflare.com:443?security=tls&type=ws&host=em-fireplace-soccer-vatican.trycloudflare.com&sni=em-fireplace-soccer-vatican.trycloudflare.com&path=/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-tr#replit-trojan</p>
+<button onclick="copyText('trojan')" >点击复制Trojan链接</button>
+<p>----------------------------------------------------------------</p>
+<p>Trojan二维码：</p>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAADbAQMAAADeTXYDAAAABlBMVEUAAAD///+l2Z/dAAAAAnRS TlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAASASURBVFiF7ZgxrqQ6EEULEThrNoDENpx5 S80GGnoDzZbIvA0kNgAZgUXNKbr7v9EPJrAnHNQz4nGQEOWqe68R/cMh/2AZ3EQeTqpj6WO6hXqf 61foplmqMrhrunNLSHdfP+d20NTPukeul8HrwsAzjyReR+lU2z5KXwz7yDPbh+9eDrJIWJq/AR8u DfM6ShLpTtftR72XQyoUlip2Z0hDXHrlvB1+K18eZD372P7/97PYmZCDp1Xzwm+Ylztv49v+pzUz 4SatOGCnh4irp1nHoKNfpzKosXtJeoRF3DqG+hR9+aU5umcZpEKVLaaeDI3IcMjdWVNrKVSd1533 CIk2nOZuOrqJkzLIv5u0D1mfWlOkR7jmzwaoCG4ekZCGHnRJAtVieZebX/cyyHP6Q5oj0W6X/NB6 +pJVy+BmrZEqhtvJPaybZ2hs1qcyqMdyN6mord4zJ7ReEvcpXzY09ZX6eVChxaRI1tHLt/tKYHr4 1MR6P9q7swo1s10cyiAl0dgi83tM/WFifEpb6Xexc+GujEitvJCvT9c2iDFK79qqDG7eFOJlY0fT 8UwaJJkvFUJJ1dExhZcYU/L25tbNfeczF1KJkdMod1l6lMPzTozOWgjPgNtjQd2kJpxDpMHpR0pV BHftXoGqLGbyx8pkTyYb3xCRDY92OFpGcPQYqdwCFaq3z2TnQ0UmUU3lFkLEutF9oUY1n2Xw9DYr rCEmf7r65eg+XkuGMqi6YkEo3E2WOxZnvpRuXCmFZhpVROCRHxxpuSFF8p8BZMItXBmHZwbcntBX o5oVNlIGWc9eeRq9jAbX9PJOoPgmqWzIem4Oe8c8eab9ydVeP5GnABJJVmKOcJh7LHfrvs96ZkN0 6BWuCjHfsz5nkpQ088fosqESyrwwyjZ2US5hI2Cmqgyefn1ZiF6flEdxJ+aGe7u9FBKliQ/r6Ght mo5CUfvUFMJg/nkKeyCyAz3CoBMw3xXKh/uxoJrPGbdHj+XhzTzZu/SF0LqPqluSwpGUVEKsCF+3 z4VGfI0zs6W4edwpWUrVj9vnw8DWR95W/HDcS9XrUT77lWyoEZmUwfS4xuUm2xSaRfdlcMOEPSJk bzAhGGS0wAp0Wgj9wiabTH0GM3z0vrf5+2bqbGj+Q+sl4gMTM1r8sf2QFkJZbuH9V/s2eaIlXdOU QT3qMRAf0l0IlasVjB2AvANaPrSsd9is7PFtztfm2L8rlA/1siATiRkLXffIvWSKzxYzG26ewtBu dssd8bDupnc+5SuA60Q+tRFX2wrE+om28XJlUK9de4MORWGyb4i9sMuUpgzuBxvrNBwW+ibWU2oM ioQylcHTtM1Ezr4KiK2nOdJPm2RCjj1aMMFAhlibzOtS6eeTQTa8vrjwuz41RabEHOkZP26fDU13 7VFk/0Q2eR6cI8zdXgjntucCznZ9cdF4ub38fEHLhmyviWni9BlZBzZbpJ7PYhdBRxLBPRa2Ao2y ZenYF5ZC+5Bpom4zrXQf/9MypfBaz2507K7YYZtq4vY399tiZ8E/HP9gEfwFPie1xyt2plcAAAAA SUVORK5CYII="/>
+<p>================================================================</p>
+<p>4：shadowsocks+ws+tls配置明文如下，相关参数可复制到客户端</p>
+<p>服务器地址：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>端口：443</p>
+<p>密码：23ef8b4b-c51a-4393-b6f7-87d96fbc1d68</p>
+<p>加密方式：chacha20-ietf-poly1305</p>
+<p>传输协议：ws</p>
+<p>host/sni：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>path路径：/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-ss</p>
+<p>tls：开启</p>
+<p>================================================================</p>
+<p>5：socks+ws+tls配置明文如下，相关参数可复制到客户端</p>
+<p>服务器地址：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>端口：443</p>
+<p>用户名：23ef8b4b-c51a-4393-b6f7-87d96fbc1d68</p>
+<p>密码：23ef8b4b-c51a-4393-b6f7-87d96fbc1d68</p>
+<p>传输协议：ws</p>
+<p>host/sni：em-fireplace-soccer-vatican.trycloudflare.com</p>
+<p>path路径：/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-so</p>
+<p>tls：开启</p>
+<p>================================================================</p>
+</body>
+<script>
+      function copyText(textId) {
+        var text = document.querySelector(`[data-copy="${textId}"]`).innerText;
+        var textArea = document.createElement("textarea");
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textArea);
+        alert("复制成功");
+      }
+    </script>
+</html>
 
