@@ -25,5 +25,5 @@ Since the argo tunnel address changes at every run, this code is an attempt to f
 13. `TARGET_IP`: Clean CF IP or Domain.
 
 # Notes
-* So far, this code only returns the "vless://" config and base64 too. If needed, argo configs for vmess, trojan, ss and socks can be added too.
-* Replit code will run until the window is open, so while this saves the efforts to get the argo config, this all is for educational purposes only.
+* So far, this code only returns the "vless://" config and base64 too. If needed, argo configs for vmess, trojan, ss and socks can be added as well.
+* Replit code will run until the window is open, so while this saves the effort to get the argo config, this all is for educational purposes only and no abuse of services is intended.
