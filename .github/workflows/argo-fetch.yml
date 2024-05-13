@@ -46,7 +46,8 @@ jobs:
 
     - name: Convert to base64
       run: |
-        base64 argoconfig.txt > argoconfig64
+         content=$(cat argoconfig.txt | base64 | tr -d '\n')
+            echo "$content" > argoconfig64
 
     - name: Check for changes
       id: changes64
