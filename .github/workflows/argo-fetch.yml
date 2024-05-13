@@ -59,8 +59,118 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+    - name: Reset configs directory
+      run: |
+        rm -rf configs
+        mkdir configs
+    
           git add argoconfig64
           git add -A
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
+
+
+
+    - name: Make lists
+      run: |
+        > uris.txt
+        python list.py
+        
+    - name: Upload URIs
+      uses: actions/upload-artifact@v2
+      with:
+        name: uris.txt
+        path: uris.txt
+ 
+
+    - name: Check for URI Changes
+      id: changesRI
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+    
+    - name: Commit and Push URIs if changed
+      if: steps.changesRI.outputs.changed == 'true'
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit --allow-empty -m "update URIs"
+          git pull
+          git push
+          
+    - name: Run Script
+      run: python run.py
+      
+    - name: Upload JSON files
+      uses: actions/upload-artifact@v2
+      with:
+        name: JSON files
+        path: /configs/*.json
+ 
+
+    - name: Commit and Push JSONs
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add generated JSON file"
+          git pull
+          git push
+
+    - name: Combine JSON files
+      run: python export.py
+ 
+    - name: Upload Combined JSON file
+      uses: actions/upload-artifact@v2
+      with:
+        name: Combined JSON file
+        path: configs/combined.json
+
+    - name: Export JSON
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Export JSON"
+          git pull
+          git push
+
+    - name: Create results directory
+      run: | 
+        rm -rf results
+        mkdir results
+    - name: Run script
+      run: node java/fragment.js
+
+    - name: Upload fragment files
+      uses: actions/upload-artifact@v2
+      with:
+        name: JSON files
+        path: /results/*.json
+
+    - name: Commit and Push Fragment
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add fragment JSON file"
+          git push
+
+    - name: Combine fragment files
+      run: python fexport.py
+ 
+    - name: Upload Combined fragment file
+      uses: actions/upload-artifact@v2
+      with:
+        name: Combined fragment file
+        path: results/combined.json
+    - name: Export Fragmentation
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Export TLS Fragment"
+          git pull
+          git push
+
