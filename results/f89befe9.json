@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "businessofsoftware.ir",
+                        "address": "rne-parseh.ir",
                         "port": 443,
                         "users": [
                             {
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "mailman-ireland-districts-dame.trycloudflare.com"
+                        "Host": "powers-bolt-relatively-sufficient.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "mailman-ireland-districts-dame.trycloudflare.com",
+                    "serverName": "powers-bolt-relatively-sufficient.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
