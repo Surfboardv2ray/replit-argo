@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "rne-parseh.ir",
+                        "address": "domaina.ir",
                         "port": 443,
                         "users": [
                             {
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "powers-bolt-relatively-sufficient.trycloudflare.com"
+                        "Host": "lawn-structures-drunk-merchandise.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "powers-bolt-relatively-sufficient.trycloudflare.com",
+                    "serverName": "lawn-structures-drunk-merchandise.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
