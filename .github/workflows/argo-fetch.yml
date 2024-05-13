@@ -26,12 +26,18 @@ jobs:
         pip install requests
 
     - name: Run script
-      run: python script.py  # Replace with the path to your Python script
+      run: python fetch-argo.py  # Replace with the path to your Python script
 
-    - name: Commit and push if changed
+    - name: Check for argo config
+      id: changes
       run: |
-        git diff
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -am "Update argoconfig.txt" || exit 0
-        git push
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+      
+    - name: Commit and Push
+      if: steps.changes.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add argoconfig.txt
+          git commit -m "update argoconfig"
+          git push
