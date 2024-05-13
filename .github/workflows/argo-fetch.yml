@@ -59,19 +59,17 @@ jobs:
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-    - name: Reset configs directory
-      run: |
-        rm -rf configs
-        mkdir configs
-    
           git add argoconfig64
           git add -A
           timestamp=$(TZ='Asia/Tehran' date)
           git commit -m "✅Updated on ${timestamp}"
           git push
 
-
-
+    - name: Reset configs directory
+      run: |
+        rm -rf configs
+        mkdir configs
+        
     - name: Make lists
       run: |
         > uris.txt
