@@ -13,7 +13,7 @@ Here's the simplified steps to run an Argo Tunnel config based on Replit.
 5. Separate the first part of the address (at the time of writing, it's in the format of `UUID.pike.replit.dev` -- make sure to exclude the "https://") and copy it.
 6. Under "Tools" at left lower corner, locate and tap `Secrets`. Tap `New Secret`.
 7. Name the "Key" as `ym` (lowercase) and put the address that you copied in step 5 as the "Value" of the secret.
-8. `Stop` and `Run` again, this time you'll get html links for the output.
+8. `Stop` and `Run` again, this time you'll get html links under "Console".
 
 # How to use
 Since the argo tunnel address changes at every run, this code is an attempt to fetch the vless config every time that it changes.
