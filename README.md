@@ -10,14 +10,14 @@ Here's the simplified steps to run an Argo Tunnel config based on Replit.
 1. Create a replit account, tap `+ Create Repl` in the upper left corner of the homepage or the plus sign in the upper right corner
 2. Search for the template: `Blank Repl`, enter the project name title, and tap Create Repl.
 3. Download the compressed file `vmvltrssso.zip` and unzip it. Then drag all four decompressed files to the file bar on the left and confirm overwriting.
-4. Tap `Run` and in the upper right corner under "web view", located and tap `New Tab`.
+4. Tap `Run`, then in the upper right corner under "web view", tap `New Tab`.
 5. Separate the first part of the new tab URL (at the time of writing, it's in the format of `UUID.pike.replit.dev` -- make sure to exclude the "https://") and copy it.
 6. Under "Tools" at left lower corner, locate and tap `Secrets`. Tap `New Secret`.
 7. Name the "Key" as `ym` (lowercase) and put the address that you copied in step 5 as the "Value" of the secret.
 8. `Stop` and `Run` again, this time you'll get html links under "Console".
 
 # How to use
-Since the argo tunnel address changes at every run, this code is an attempt to fetch the vless config every time that it changes.
+Since the Cloudflare argo tunnel subdomain changes at every run, this code is an attempt to fetch the vless config every time that it changes.
 
 9. Make sure your Repl is running.
 10. Open `fetch-argo.py` and replace "YOUR_URL", "HOST_SNI" and "TARGET_IP".
