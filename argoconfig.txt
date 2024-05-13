@@ -1,1 +1,1 @@
-vless://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68@fantasya.ir:443?encryption=none&security=tls&type=ws&host=contractors-specials-steve-dsc.trycloudflare.com&sni=contractors-specials-steve-dsc.trycloudflare.com&path=/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-vl#✅Argo+@Surfboardv2ray
+vless://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68@didgahnews.ir:443?encryption=none&security=tls&type=ws&host=di-section-requesting-behavioral.trycloudflare.com&sni=di-section-requesting-behavioral.trycloudflare.com&path=/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-vl#✅Argo+@Surfboardv2ray
