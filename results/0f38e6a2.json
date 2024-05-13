@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "interval-beautifully-divide-port.trycloudflare.com"
+                        "Host": "ear-sq-construction-samoa.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "interval-beautifully-divide-port.trycloudflare.com",
+                    "serverName": "ear-sq-construction-samoa.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
