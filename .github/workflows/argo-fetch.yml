@@ -39,5 +39,27 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add argoconfig.txt
-          git commit -m "update argoconfig"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "✅Updated on ${timestamp}"
+          git push
+
+    - name: Convert to base64
+      run: |
+        base64 argoconfig.txt > argoconfig64
+
+    - name: Check for changes
+      id: changes64
+      run: |
+        git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+
+    - name: Commit and Push 64
+      if: steps.changes64.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add argoconfig64
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "✅Updated on ${timestamp}"
           git push
