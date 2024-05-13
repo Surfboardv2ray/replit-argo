@@ -1,1 +1,1 @@
-vless://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68@showtimes-frederick-consists-yu.trycloudflare.com:443?encryption=none&security=tls&type=ws&host=showtimes-frederick-consists-yu.trycloudflare.com&sni=showtimes-frederick-consists-yu.trycloudflare.com&path=/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-vl#✅Argo+@Surfboardv2ray
+vless://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68@118nahal.ir:443?encryption=none&security=tls&type=ws&host=118nahal.ir&sni=118nahal.ir&path=/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-vl#✅Argo+@Surfboardv2ray
