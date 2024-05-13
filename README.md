@@ -1,7 +1,7 @@
 # Acknowlegements
 * Tribute to: [yonggekkk](https://github.com/yonggekkk)
 * OG Repo: [Replit-Xray](https://github.com/yonggekkk/Replit-Xray/tree/main)
-* YouTube instructions: [Link](https://www.youtube.com/watch?v=p1G_yLCcIq0)
+* [YouTube instructions](https://www.youtube.com/watch?v=p1G_yLCcIq0)
 
 # How to Repl It
 Here's the simplified steps to run an Argo Tunnel config based on Replit.
@@ -25,4 +25,5 @@ Since the argo tunnel address changes at every run, this code is an attempt to f
 13. `TARGET_IP`: Clean CF IP or Domain.
 
 # Notes
-So far, this code only returns the "vless://" config and base64 too. If needed, argo configs for vmess, trojan, ss and socks can be added too.
+* So far, this code only returns the "vless://" config and base64 too. If needed, argo configs for vmess, trojan, ss and socks can be added too.
+* Replit code will run until the window is open, so while this saves the efforts to get the argo config, this all is for educational purposes only.
