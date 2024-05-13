@@ -3,7 +3,7 @@ import re
 
 repl_url = "https://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68.html"
 host_sni = "23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev"
-target_ip = "azizimashin.com"
+target_ips = ["azizimashin.com", "didgahnews.ir", "fantasya.ir"]
 
 def get_content():
     try:
@@ -39,7 +39,7 @@ def get_vless_line(content):
             vless_line = vless_line[vless_line.index('vless://'):]
             vless_line_parts = vless_line.split('@')
             ip_address_parts = vless_line_parts[1].split(':')
-            ip_address_parts[0] = target_ip
+            ip_address_parts[0] = random.choice(target_ips)
             vless_line_parts[1] = ':'.join(ip_address_parts)
             return '@'.join(vless_line_parts)
     return None
