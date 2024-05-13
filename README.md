@@ -2,6 +2,7 @@
 * Tribute to: [yonggekkk](https://github.com/yonggekkk)
 * OG Repo: [Replit-Xray](https://github.com/yonggekkk/Replit-Xray/tree/main)
 * [YouTube instructions](https://www.youtube.com/watch?v=p1G_yLCcIq0)
+* Fragment base code: [config2Fragment](https://github.com/Surfboardv2ray/config2Fragment)
 
 # How to Repl It
 Here's the simplified steps to run an Argo Tunnel config based on Replit.
