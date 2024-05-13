@@ -1,10 +1,13 @@
 import requests
 import re
 
+repl_url = "https://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68.html"
+host_sni = "23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev"
+target_ip = "118nahal.ir"
+
 def get_content():
     try:
-        url = "https://23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev/23ef8b4b-c51a-4393-b6f7-87d96fbc1d68.html"
-        response = requests.get(url)
+        response = requests.get(repl_url)
         response.raise_for_status()
         content = response.text
         return content
@@ -23,7 +26,7 @@ def replace_subdomain(content, subdomain):
     lines = content.split('\n')
     for i, line in enumerate(lines):
         if 'vless://' in line:
-            lines[i] = re.sub(r"23ef8b4b-c51a-4393-b6f7-87d96fbc1d68-00-239oofdhbgijm.pike.replit.dev", f"{subdomain}.trycloudflare.com", line)
+            lines[i] = re.sub(host_sni, f"{subdomain}.trycloudflare.com", line)
     return '\n'.join(lines)
 
 def get_vless_line(content):
@@ -36,7 +39,7 @@ def get_vless_line(content):
             vless_line = vless_line[vless_line.index('vless://'):]
             vless_line_parts = vless_line.split('@')
             ip_address_parts = vless_line_parts[1].split(':')
-            ip_address_parts[0] = '118nahal.ir'
+            ip_address_parts[0] = target_ip
             vless_line_parts[1] = ':'.join(ip_address_parts)
             return '@'.join(vless_line_parts)
     return None
