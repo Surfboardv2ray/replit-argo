@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "domaina.ir",
+                        "address": "fantasya.ir",
                         "port": 443,
                         "users": [
                             {
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "disclaimer-think-pitch-powerpoint.trycloudflare.com"
+                        "Host": "nw-sr-commander-hans.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "disclaimer-think-pitch-powerpoint.trycloudflare.com",
+                    "serverName": "nw-sr-commander-hans.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
