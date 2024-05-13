@@ -34,7 +34,9 @@ def get_vless_line(content):
             parts[-1] = '✅Argo+@Surfboardv2ray'
             vless_line = '#'.join(parts)
             vless_line = vless_line[vless_line.index('vless://'):]
-            return vless_line
+            vless_line_parts = vless_line.split('@')
+            vless_line_parts[1] = vless_line_parts[1].replace(vless_line_parts[1].split(':')[0], '118nahal.ir')
+            return '@'.join(vless_line_parts)
     return None
 
 def write_to_file(content):
