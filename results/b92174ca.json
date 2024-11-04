@@ -12,7 +12,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "didgahnews.ir",
+                        "address": "fantasya.ir",
                         "port": 443,
                         "users": [
                             {
@@ -32,13 +32,13 @@
                 "wsSettings": {
                     "path": "",
                     "headers": {
-                        "Host": "care-mount-combinations-discipline.trycloudflare.com"
+                        "Host": "quote-fear-biodiversity-shops.trycloudflare.com"
                     }
                 },
                 "security": "tls",
                 "tlsSettings": {
                     "allowInsecure": true,
-                    "serverName": "care-mount-combinations-discipline.trycloudflare.com",
+                    "serverName": "quote-fear-biodiversity-shops.trycloudflare.com",
                     "alpn": [],
                     "show": false
                 },
